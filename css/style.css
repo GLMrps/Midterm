@@ -167,22 +167,87 @@ header .image2{
     padding-bottom: 17px;
 }
 
-.nav-ul li{
-    text-decoration: none;
-}
-
 .childnav{
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
     list-style: none;
     position: absolute;
     display: none;
 }
 
 .childnav .navlink{
-    margin-top: 16px;
+    display: flex;
 }
 
 .parentsnav:hover .childnav{
     display: block;
+}
+
+.personalfile{
+    height: 790px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.profilebox{
+    display: flex;
+    position: relative;
+    width: 334px;
+    height: 334px;
+    top: 230px;
+    left:223px;
+    z-index: 1;
+}
+
+.img-me{
+    display: block;
+}
+
+.profilecontext{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 593px;
+    height: 395px;
+    background-color: #939393;
+    top: 200px;
+    left:148px;
+}
+
+.profiletitle{
+    display: flex;
+    margin:16px 0 0 63px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.name{
+    display: flex;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:45px 0 0 105px;
+}
+
+.school{
+    display: flex;
+    margin: 6px 0 0 105px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.myfile{
+    display: flex;
+    margin:16px 0 0 105px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
