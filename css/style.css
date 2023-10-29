@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     color: #EEFFFF;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 html{
@@ -10,6 +12,11 @@ html{
     width: 1440px;
     height:3000px;
     background:linear-gradient(#000000, #461AC4);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
 }
 
 header .image1{
@@ -121,4 +128,61 @@ header .image2{
 .slider_container:hover div {
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
+}
+
+.header{
+    height: 302px;
+    width: 1440px;
+}
+
+.nav{
+    background-color: #0C0422;
+    height: 62px;
+    text-decoration: none;
+}
+
+.navlink{
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #000;
+}
+
+.navlink:hover{
+    background-color: #3206AE;
+}
+
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+
+.nav-ul li{
+    text-decoration: none;
+}
+
+.childnav{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: absolute;
+    display: none;
+}
+
+.childnav .navlink{
+    margin-top: 16px;
+}
+
+.parentsnav:hover .childnav{
+    display: block;
 }
