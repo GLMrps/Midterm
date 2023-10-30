@@ -8,10 +8,10 @@
 
 html{
     margin: auto;
-    background-color: #EDF2C5;
     width: 1440px;
     height:3000px;
-    background:linear-gradient(#000000, #461AC4);
+    background-image: url(../img/decoration.png),linear-gradient(#000000, #461AC4) ;
+    background-position: top;
 }
 
 .container{
