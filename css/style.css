@@ -273,8 +273,13 @@ header .image2{
     align-items: end;
 }
 
+.illustration{
+    height: 770px;
+}
+
 .illustrate-title{
-    display: flex;
+    display:block;
+    width: fit-content;
     position: relative;
     font-size: 32px;
     font-style: normal;
@@ -286,11 +291,13 @@ header .image2{
 }
 
 .illustrate-area{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
+    justify-content: baseline;
+    align-content: center;
     position: relative;
     top:207px;
-    left: 415px;
+    left: 413px;
 }
 
 .illustrate-text{
@@ -316,3 +323,134 @@ header .image2{
 .illustrate-area img{
     z-index: 1;
 }
+
+.animation-title{
+    display:block;
+    width: fit-content;
+    position: relative;
+    font-family: Noto Sans Bengali;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 325px;
+    top:73px;
+}
+
+.animation-area{
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    top: 180px;
+    left: 360px;
+}
+
+.missme-img{
+    width: 485px;
+    height: 273px;
+    z-index: 1;
+}
+
+.animation-text{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content:center;
+    font-family: Noto Sans Bengali;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #191919;
+    width: 593px;
+    height: 261px;
+    position: relative;
+    top:81px;
+    right: 330px;
+    padding-left: 400px;
+    padding-top: 63px;
+}
+
+.contact{
+    height: 509px;
+}
+
+.contact-title{
+    display: flex;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #191919;
+    width: 909px;
+    height: 30px;
+    padding-left: 51px;
+    margin: 0 auto 18px auto;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: left;
+    align-items: end;
+    top:400px;
+}
+
+.phone{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top:430px;
+    left: 448px;
+}
+
+.mail{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top:500px;
+    left: 260px;
+}
+
+.phonenumber{
+    padding-top: 13px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mailaddress{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icon{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    top:440px;
+    left: 370px;
+}
+
+.contact-icon{
+    display: block;
+    padding-bottom: 10px;
+}
+
+footer{
+    margin-top: 138px;
+    height: 60px;
+    background-color: #000000;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    width: 1440px;
+  }
