@@ -251,3 +251,68 @@ header .image2{
     font-weight: 400;
     line-height: normal;
 }
+
+.workfile{
+    display: block;
+}
+
+.workfiletitle{
+    display: flex;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #191919;
+    width: 909px;
+    height: 30px;
+    padding-left: 51px;
+    margin: 0 auto 18px auto;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: left;
+    align-items: end;
+}
+
+.illustrate-title{
+    display: flex;
+    position: relative;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Noto Serif Bengali;
+    left: 325px;
+    top:73px;
+}
+
+.illustrate-area{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:207px;
+    left: 415px;
+}
+
+.illustrate-text{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content:center;
+    font-family: Noto Sans Bengali;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #191919;
+    width: 593px;
+    height: 395px;
+    position: relative;
+    top:81px;
+    right: 140px;
+    padding-left: 235px;
+    padding-top: 63px;
+}
+
+.illustrate-area img{
+    z-index: 1;
+}
