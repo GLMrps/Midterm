@@ -32,13 +32,13 @@ header{
 
 
 
-.square{
-  margin: 7.5% 20%;
-  width: 892px;
-  height: 30px;
-  background-color: #000000;
-  z-index:1;
-}
+  .square{
+    margin: 16vh 300px;
+    width: 892px;
+    height: 30px;
+    background-color: #000000;
+    z-index:1;
+  }
 
 .nav1{
   position: absolute;
