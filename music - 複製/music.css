@@ -8,8 +8,7 @@
 
 html{
   margin: auto;
-
- background:linear-gradient(#000000, #461AC4);
+  background-image:url(../img/decoration.png),linear-gradient(#000000, #461AC4);
 
 }
 

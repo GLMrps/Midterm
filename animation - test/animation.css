@@ -1,6 +1,6 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     color: #EEFFFF;
     box-sizing: border-box;
     text-decoration: none;
@@ -8,9 +8,9 @@
   
   html{
     margin: auto;
-   background:linear-gradient(#000000, #461AC4);
-   height: 900px;
-  
+    background-image: url(../img/decoration.png),linear-gradient(#000000, #461AC4) ;
+    height: 1015px;
+    
   }
   
   header{

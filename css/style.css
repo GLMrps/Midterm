@@ -14,6 +14,24 @@ html{
     background-position: top;
 }
 
+.illustrate-page{
+    margin: auto;
+    width: 1440px;
+    height: 1612px;
+}
+
+.aboutme-page{
+    margin: auto;
+    width: 1440px;
+    height: 1565px;
+}
+
+.illustrate-introdution{
+    margin: auto;
+    width: 1440px;
+    height: 1060px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -137,7 +155,7 @@ header .image2{
 
 .nav{
     background-color: #0C0422;
-    height: 62px;
+    height: 64px;
     text-decoration: none;
 }
 
@@ -149,6 +167,11 @@ header .image2{
     padding-right: 20px;
     border: 1px solid #000;
 }
+
+.childnav li{  
+    background-color: #0C0422;
+    width: 115px;
+  }
 
 .navlink:hover{
     background-color: #3206AE;
@@ -168,6 +191,7 @@ header .image2{
 }
 
 .childnav{
+    z-index: 1;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
@@ -453,4 +477,175 @@ footer{
     align-items: center;
     font-size: 12px;
     width: 1440px;
+  }
+
+  .content-area{
+    height: 1350px;
+  }
+
+  .illustrate-page-title{
+    display: inline-flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+    width: 892px;
+    height: 56.466px;
+    position: relative;
+    top: 80px;
+    left:270px;
+    font-family: Noto Serif Bengali;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #191919;
+  }
+
+  .row1{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .row2{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img1{
+    position: relative;
+    top:10px;
+    left: 380px;
+    z-index: 1;
+  }
+
+  .box1{
+    position: relative;
+    top:50px;
+    left:210px;
+    width: 204px;
+    height: 363px;
+    background-color: #191919;
+  }
+
+  .img2{
+    position: relative;
+    top:10px;
+    left: 430px;
+    z-index: 1;
+  }
+
+  .box2{
+    position: relative;
+    top:50px;
+    left: 260px;
+    width: 204px;
+    height: 363px;
+    background-color: #191919;
+  }
+
+  .img3{
+    position: relative;
+    top:70px;
+    left: 380px;
+    z-index: 1;
+  }
+
+  .box3{
+    position: relative;
+    top: 115px;
+    left: 210px;
+    width: 204px;
+    height: 363px;
+    background-color: #191919;
+  }
+
+  .img4{
+    position: relative;
+    top:70px;
+    left: 430px;
+    z-index: 1;
+  }
+
+  .box4{
+    position: relative;
+    top: 115px;
+    left: 255px;
+    width: 204px;
+    height: 297px;
+    background-color: #191919;
+  }
+
+  .introduce-area{
+    height: 800px;
+  }
+
+  .imgintro{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .introduce-title{
+    display: inline-flex;
+    align-items: end;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    width: 892px;
+    height: 30px;
+    position: relative;
+    top: 150px;
+    left: 270px;
+    font-family: Noto Serif Bengali;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #191919;
+  }
+
+  .img{
+    display: block;
+    width: 244px;
+    height: 433px;
+    position: relative;
+    top: 210px;
+    left: 350px;
+    z-index: 1;
+  }
+
+  .box-introduce{
+    display: flex;
+    position: relative;
+    width: 638px;
+    height: 433px;
+    background-color: #191919;
+    top: 280px;
+    left: 200px;
+  }
+
+  .introduce-text{
+    font-family: Noto Sans Bengali;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top:300px;
+    right:250px;
+  }
+
+  .profilecontext-aboutme{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 593px;
+    height: 799px;
+    background-color: #939393;
+    top: 200px;
+    left:148px;
+  }
+
+  .personfile-area{
+    height: 1000px;
   }
