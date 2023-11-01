@@ -10,7 +10,7 @@ html{
   margin: auto;
   background-image:url(../img/decoration.png),linear-gradient(#000000, #461AC4);
   width: 1440px;
-  height: 900px;
+  height: 1050px;
 
 }
 
@@ -161,10 +161,10 @@ header{
 }
 
 footer{
-  margin-top: 192px;
+  position: relative;
+  margin-top: 342px;
   height: 60px;
   background-color: #000000;
-  position: static;
   display: flex;
   justify-content: center;
   align-items: center;

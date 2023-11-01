@@ -614,6 +614,16 @@ footer{
     z-index: 1;
   }
 
+  .img-tako{
+    display: block;
+    width: 274px;
+    height: 385px;
+    position: relative;
+    top: 210px;
+    left: 350px;
+    z-index: 1;
+  }
+
   .box-introduce{
     display: flex;
     position: relative;
