@@ -10,7 +10,7 @@
     margin: auto;
     background-image: url(../img/decoration.png),linear-gradient(#000000, #461AC4) ;
     height: 1015px;
-    
+    width: 1440px;
   }
   
   header{
@@ -33,7 +33,7 @@
   
   
   .square{
-    margin: 16vh 300px;
+    margin: 120px 300px;
     width: 892px;
     height: 30px;
     background-color: #000000;
@@ -51,7 +51,7 @@
   
   .nav{
     background-color: #0C0422;
-    width: 1518px;
+    width: 1440px;
     height: 62px;
     text-decoration: none;
     position: absolute;
@@ -125,7 +125,7 @@
     width: 530px;
     height: 220px;
     top: 300px;
-    left: 610px;
+    left: 740px;
   }
   
   
@@ -159,7 +159,7 @@
     width: 530px;
     height: 200px;
     top: 610px;
-    left: 610px;
+    left: 740px;
   }
 
   .bk{
@@ -197,7 +197,7 @@ video{
   }
 
 footer{
-    margin-top: 50px;
+    margin-top: 90px;
     height: 60px;
     background-color: #000000;
     position: static;
@@ -205,5 +205,5 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 12px;
-    width: 1518px;
+    width: 1440px;
 }
