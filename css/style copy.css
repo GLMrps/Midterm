@@ -1,0 +1,66 @@
+.nav{
+    text-decoration: none;
+    background-color: #45598F;
+    height: 62px;
+    align-items: center;
+    font-size: 24px;
+}
+
+.nav-link:hover{
+    background-color: #3206AE;
+}
+
+.nav-link{
+    height: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.dropdown-menu{
+    background-color: #45598F;
+    font-size: 24px;
+    width: 108px;
+}
+
+.subnav{
+    list-style: none;
+    display: none;
+    position: absolute;
+    left: -32px;
+    flex-direction: row;
+}
+
+.sub-item{
+    width: 104px;
+    background-color: #45598F;
+}
+
+.dropdown:hover>.subnav {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+ /*Without this, clicking will make it sticky*/
+   pointer-events: none;
+}
+
+#profile-title{
+    font-size: 36px;
+}
+
+#name{
+    font-size: 32px;
+}
+
+#personintro{
+    font-size: 24px;
+}
+
+#card-img{
+    max-width: 316px;
+}
+
+#cardtext{
+    background-color: #6C95FF;
+}
+
