@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>ThomasChung Personal Site</title>
-    <link rel="stylesheet" href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style copy.css">
@@ -13,6 +13,7 @@
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </head>
+
 <div class="container">
     <div class="row">
         <div class="col">
@@ -24,6 +25,7 @@
                   <div class="carousel-item">
                     <img id="bar2" src="img/img-bar2.png" class="d-block w-100" alt="...">
                   </div>
+                  <div class="cover-img"></div>
                 </div>
               </div>
         </div>
@@ -50,15 +52,16 @@
                 </li>
               </ul>
         </div>
+
     </div>
-    <div id="person-area" class="card mb-3 border-light mb-3 mx-auto" style="max-width: 800px;">
-      <div class="row g-0">
-        <div class="col-md-5 ">
+    <div id="person-area" class=" mb-3 border-light mb-3 mx-auto" style="max-width: 900px;">
+      <div class="row g-0 card-row">
+        <div class="col-md-4  z">
           <img id="card-img" src="img/profile-image.png" class="img-fluid rounded-start" alt="...">
         </div>
-        <div id="cardtext" class="col-md-6 ">
+        <div id="cardtext" class="col-md-7 ">
           <div class="card-body">
-            <a href="">個人簡介</a>
+            <a class="card-a fw-bold" href="">個人簡介</a>
             <h5 class="card-title">江秉宸</h5>
             <p class="card-text">
               國立台北教育大學 數位科技設計學系 <br>
@@ -66,30 +69,33 @@
               動畫(3DMax)<br>
               音樂(Cubase)<br>
                 <br>
-              一個喜愛動畫、藝術與音樂的大學生
+              一個喜愛動畫、藝術與音樂的大學生 
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="row area-title">
-      <div class="col">
-        <h2>作品集</h2>
+    <div class=" row area-title">
+      <div class="col-2"></div>
+      <div class="row-fill col-4 ">
+        <h2 class="fw-bold title">作品集</h2> 
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-        <h2 class=""><a href="">插畫 Illustration</a></h2>
+    <div class=" row area-title">
+      <div class="col-2"></div>
+      <div class="row-fill-s col-4 ">
+        <h2 class="title"><a class="card-a-s" href="">插畫 Illustration</a></h2> 
       </div>
     </div>
-    <div class="card mb-3 border-light mb-3 mx-auto" style="max-width: 800px;">
+    <div class="down mb-3 border-light mb-3 mx-auto" style="max-width: 800px;">
       <div class="row g-0">
-        <div class="col-md-5 ">
-          <img id="card-img" src="img/index-img-illustrate.png" class="img-fluid" alt="...">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 z">
+          <img id="card-img" src="img/index-img-illustrate.png" class="img-fluid not-phone" alt="...">
         </div>
-        <div id="cardtext" class="col-md-6 ">
+        <div id="cardtext" class="col-md-6 text-area-down s-hide">
           <div class="card-body">
-            <p class="card-text">
+            <p class="card-text text-down">
               ひかりふる<br>
               2023/6<br>
               <br>
@@ -98,21 +104,25 @@
           </div>
         </div>
       </div>
+      <img class="phone-img" src="img/index-phone-圓神.png" alt="">
+      <img class="phone-img" src="img/index-phone天秤.png" alt="">
     </div>
     
-    <div class="row">
-      <div class="col">
-        <h2 class=""><a href="">動畫 Animation</a></h2>
+    <div class=" row area-title">
+      <div class="col-2"></div>
+      <div class="row-fill-s col-4 ">
+        <h2 class="title"><a class="card-a-s" href="">動畫 Animation</a></h2> 
       </div>
     </div>
-    <div class="card mb-3 border-light mb-3 mx-auto" style="max-width: 800px;">
+    <div class="down mb-3 border-light mb-3 mx-auto" style="max-width: 800px;">
       <div class="row g-0">
-        <div class="col-md-5 ">
-          <img id="card-img" src="img/index-img-anime.png" class="img-fluid" alt="...">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 z">
+          <img id="card-img" src="img/index-img-anime.png" class="img-fluid not-phone" alt="...">
         </div>
-        <div id="cardtext" class="col-md-6 ">
+        <div id="cardtext" class="col-md-6 text-area-down s-hide">
           <div class="card-body">
-            <p class="card-text">
+            <p class="card-text text-right">
               MISS ME<br>
               2023/10<br>
               <br>
@@ -121,10 +131,12 @@
           </div>
         </div>
       </div>
+      <img class="phone-img" src="img/index-phone-apple.png" alt="">
     </div>
-    <div class="row area-title">
-      <div class="col">
-        <h2 class="">聯絡資訊</h2>
+    <div class=" row area-title d">
+      <div class="col-2"></div>
+      <div class="row-fill col-4 ">
+        <h2 class="fw-bold title">聯絡資訊</h2> 
       </div>
     </div>
     <div class="row">

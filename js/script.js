@@ -12,7 +12,6 @@ $(document).ready(function()
         {
             $("#bar1").attr("src","img/img-bar1.png");
             $("#bar2").attr("src","img/img-bar2.png");
-            $("#phone-img").style.display="none";
         }
     });
 });
