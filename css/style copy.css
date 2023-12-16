@@ -1,9 +1,18 @@
+body{
+    background-image:  url(../img/decoration.png),linear-gradient(#8E92FF, #C3EDFB) ;
+    background-size: cover;
+}
+
 .nav{
     text-decoration: none;
     background-color: #45598F;
     height: 62px;
     align-items: center;
     font-size: 24px;
+}
+
+.container{
+    padding: 0;
 }
 
 .nav-link:hover{
@@ -40,7 +49,6 @@
   }
   
 .dropdown>.dropdown-toggle:active {
- /*Without this, clicking will make it sticky*/
    pointer-events: none;
 }
 
@@ -64,3 +72,15 @@
     background-color: #6C95FF;
 }
 
+#person-area{
+    margin-top: 200px;
+}
+
+.area-title{
+    margin-top: 150px;
+}
+
+.foot{
+    width: 100%;
+    color:#FFFFFF;
+}
