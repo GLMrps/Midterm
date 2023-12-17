@@ -15,22 +15,61 @@
 </head>
 <body>
     <div class="container">
+      <div class="row ">
+        <div class="col d-flex justify-content-end">
+          <nav class="navbar navbar-dark hamburger-h ">
+            <div class="container-fluid">
+              <button class="navbar-toggler toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div> 
+    <div class="debug-cover"></div>
+    <div id="h-menu" class="h-menu background">
+      <div class="collapse hamburger" id="navbarToggleExternalContent">
+        <div class="background">
+          <ul class="nav-h justify-content-center">
+            <li class="nav-item-h h-w">
+              <a class="nav-link-h active text-light" aria-current="page" href="index copy.html">首頁</a>
+            </li>
+            <li class="background-b nav-item-h h-w">
+              <a class="nav-link-h text-light" aria-current="page" href="html/about-me copy.html">個人簡介</a>
+            </li>
+            <li class="background-b nav-item-h dropdown h-w">
+              <a id="dropdownMenuButton" class="nav-link-h text-light" data-mdb-toggle="dropdown" aria-expanded="false" href="#">作品集</a>    
+                <ul class="background-b subnav-h" aria-labelledby="dropdownMenuButton">
+                  <li class="nav-item-h sub-item-h h-w-s"><a class="nav-link-h text-light" href="#">插畫</a></li>
+                  <li class="nav-item-h sub-item-h h-w-s"><a class="nav-link-h text-light" href="#">動畫</a></li>
+                  <li class="nav-item-h sub-item-h h-w-s"><a class="nav-link-h text-light" href="#">音樂</a></li>
+                </ul>
+            </li>
+            <li class="background-b nav-item-h h-w">
+              <a class="nav-link-h text-light" href="#contact-info">聯絡資訊</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
         <div class="row">
             <div class="col">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img id="bar1" src="img/img-bar1.png" class="d-block w-100" alt="...">
+                        <img id="bar1-another" src="../img/img-bar1.png" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img id="bar2" src="img/img-bar2.png" class="d-block w-100" alt="...">
+                        <img id="bar2-another" src="../img/img-bar2.png" class="d-block w-100" alt="...">
                       </div>
                       <div class="cover-img"></div>
                     </div>
                   </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row nav-hide">
             <div class="col">
                 <ul class="nav justify-content-center sticky-top place-items:center display:grid">
                     <li class="nav-item">
@@ -52,8 +91,9 @@
                     </li>
                   </ul>
             </div>
-    
         </div>
+
+        
         <footer class="bg-body-tertiary text-center text-lg-start">
             <div class="text-center p-3 foot" style="background-color: #000;">
               @Copyrights 2023 ThomasChung / Design by ThomasChung and RaypingHsu
