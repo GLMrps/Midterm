@@ -15,6 +15,46 @@
 </head>
 
 <div class="container">
+  <div class="row ">
+    <div class="col d-flex justify-content-end">
+      <nav class="navbar navbar-dark hamburger-h ">
+        <div class="container-fluid">
+          <button class="navbar-toggler toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </div>
+<div class="debug-cover"></div>
+<div class="h-menu background">
+  <div class="collapse hamburger" id="navbarToggleExternalContent">
+    <div class="background">
+      <ul class="nav-h justify-content-center">
+        <li class="background-b nav-item-h h-w">
+          <a class="nav-link-h active text-light" aria-current="page" href="index copy.html">首頁</a>
+        </li>
+        <li class="background-b nav-item-h h-w">
+          <a class="nav-link-h text-light" aria-current="page" href="html/about-me copy.html">個人簡介</a>
+        </li>
+        <li class="background-b nav-item-h dropdown h-w">
+          <a id="dropdownMenuButton" class="nav-link-h text-light" data-mdb-toggle="dropdown" aria-expanded="false" href="#">作品集</a>    
+            <ul class="background-b subnav-h" aria-labelledby="dropdownMenuButton">
+              <li class="nav-item-h sub-item-h h-w-s"><a class="nav-link-h text-light" href="#">插畫</a></li>
+              <li class="nav-item-h sub-item-h h-w-s"><a class="nav-link-h text-light" href="#">動畫</a></li>
+              <li class="nav-item-h sub-item-h h-w-s"><a class="nav-link-h text-light" href="#">音樂</a></li>
+            </ul>
+        </li>
+        <li class="background-b nav-item-h h-w">
+          <a class="nav-link-h text-light" href="#contact-info">聯絡資訊</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+      
+
+
     <div class="row">
         <div class="col">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -30,14 +70,14 @@
               </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row nav-hide">
         <div class="col">
             <ul class="nav justify-content-center sticky-top place-items:center display:grid">
                 <li class="nav-item">
-                  <a class="nav-link active text-light" aria-current="page" href="#">首頁</a>
+                  <a class="nav-link active text-light" aria-current="page" href="index copy.html">首頁</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">個人簡介</a>
+                  <a class="nav-link text-light" href="html/about-me copy.html">個人簡介</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a id="dropdownMenuButton" class="nav-link text-light" data-mdb-toggle="dropdown" aria-expanded="false" href="#">作品集</a>    
@@ -48,7 +88,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">聯絡資訊</a>
+                  <a class="nav-link text-light" href="#contact-info">聯絡資訊</a>
                 </li>
               </ul>
         </div>
@@ -61,7 +101,7 @@
         </div>
         <div id="cardtext" class="col-md-7 ">
           <div class="card-body">
-            <a class="card-a fw-bold" href="">個人簡介</a>
+            <a class="card-a fw-bold" href="html/about-me copy.html">個人簡介</a>
             <h5 class="card-title">江秉宸</h5>
             <p class="card-text">
               國立台北教育大學 數位科技設計學系 <br>
@@ -133,32 +173,38 @@
       </div>
       <img class="phone-img" src="img/index-phone-apple.png" alt="">
     </div>
-    <div class=" row area-title d">
+    <div class=" row area-title d" id="contact-info">
       <div class="col-2"></div>
       <div class="row-fill col-4 ">
         <h2 class="fw-bold title">聯絡資訊</h2> 
       </div>
     </div>
-    <div class="row">
+    <div class="row contact-row d-flex align-items-center">
+      <div class="col-3"></div>
       <div class="col-1">
         <img src="img/Smartphone.png" alt="phone">
       </div>
-      <div class="col-8">
-        <p class="">0901-112-256</p>
+      <div class="col-4 align-middle">
+        <p class="p-number align-middle">0901-112-256</p>
       </div>
-      <div class="col-3">
-        <img class="contact-icon" src="img/Facebook.png" alt="FB">
+      <div class="col-4">
+        <a href="https://www.facebook.com/profile.php?id=100014260443567"  target="_blank"><img class="contact-icon" src="img/Facebook.png" alt="FB"></a> 
       </div>
+    </div>
+    <div class="row contact-row d-flex align-items-center">
+      <div class="col-3"></div>
       <div class="col-1">
         <img src="img/Gmail Logo.png" alt="mail">
       </div>
-      <div class="col-8">
-        <p class="mailaddress">thomassheep1016@gmail.com</p>
+      <div class="col-4 align-middle">
+        <p class="mailaddress align-middle">thomassheep1016@gmail.com</p>
       </div>
-      <div class="col-3">
-        <img class="contact-icon" src="img/Instagram Circle.png" alt="IG">
+      <div class="col-4">
+        <a href="https://www.instagram.com/thomassheep1016/"  target="_blank"><img class="contact-icon" src="img/Instagram Circle.png" alt="IG"></a>
       </div>
     </div>
+
+
 </div>
 <footer class="bg-body-tertiary text-center text-lg-start">
   <div class="text-center p-3 foot" style="background-color: #000;">

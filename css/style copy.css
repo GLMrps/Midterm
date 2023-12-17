@@ -3,6 +3,129 @@ body{
     background-size: cover;
 }
 
+.hamburger{
+    display: none;
+    position: absolute;
+    z-index: 99999;
+}
+
+.hamburger-h{
+    display: none;
+    position: absolute;
+    z-index: 9999999;
+}
+
+@media (max-width:620px) {
+    .hamburger{
+        display: block;
+    }
+    .hamburger-h{
+        display: block;
+    }
+    .nav-hide{
+        display: none;
+    }
+}
+
+@media (min-width:620px) {
+    .h-menu{
+        display: none;
+    }
+}
+
+.nav-h{
+    width: 100%;
+    text-decoration: none;
+    height: 62px;
+    align-items: center;
+    font-size: 24px;
+    list-style: none;
+}
+.nav-link-h:hover{
+    background-color: #a3a3a300;
+}
+.nav-link-h{
+    width: 100%;
+    text-decoration: none;
+
+    background-color: #303030;
+}
+
+.dropdown-menu-h{
+    width: 100%;
+    text-decoration: none;
+    background-color: #303030;
+    font-size: 24px;
+    width: 108px;
+}
+
+.subnav-h{
+    width: 100%;
+    background-color: #303030;
+    text-decoration: none;
+    list-style: none;
+    display: none;
+    position: absolute;
+    left: -32px;
+    flex-direction: row;
+}
+
+.sub-item-h{
+    width: 100%;
+    text-decoration: none;
+    width: 104px;
+    background-color: #303030;
+}
+
+.h-w{
+    width: 100%;
+    margin: 50px auto;
+}
+
+.h-w-s{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.background-b{
+   
+    width: 100%;
+    background-color: #303030;
+}
+
+.row-fit{
+    height: max-content;
+}
+
+.background{
+    width: 100%;
+    height: max-content;
+    background-color: #303030;
+}
+
+.h-menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    background-color: #303030;
+}
+
+.debug-cover{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 450px;
+    background-color: #303030;
+    z-index: 9999;
+}
+
+.show{
+    display: block;
+}
+
+
+
 .nav{
     text-decoration: none;
     background-color: #45598F;
@@ -89,9 +212,14 @@ body{
     background-color: #45598F;
 }
 
+
+.dropdown:hover>.subnav-h {
+    display: block;
+}
+
 .dropdown:hover>.subnav {
     display: block;
-  }
+}
   
 .dropdown>.dropdown-toggle:active {
    pointer-events: none;
@@ -198,6 +326,23 @@ body{
 
 .down{
     margin-top: 50px;
+}
+
+.p-number{
+    margin: 0;
+}
+
+.mailaddress{
+    margin: 0;
+}
+
+.contact-row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mailaddress{
+    word-wrap:break-word;
 }
 
 .foot{
