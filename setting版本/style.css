@@ -1,0 +1,78 @@
+body {
+    height: 1500px;    
+    /*transition: 2s ease;*/
+    background: linear-gradient(to bottom, #8E92FF, #FFFFFF);
+    animation: gradientAnimation 3s infinite alternate;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50; /* 按鈕的背景顏色 */
+    color: white; /* 按鈕文字的顏色 */
+    border: none; /* 移除按鈕的邊框 */
+    border-radius: 5px; /* 按鈕的邊角半徑 */
+    cursor: pointer; /* 顯示指針光標，表示可點擊 */
+}
+
+button:hover {
+    background-color: #45a049; /* 鼠標懸停時的背景顏色變化 */
+}
+
+.settings-panel {
+    display: none; /* 初始状态隐藏 */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999; /* 确保在最前面 */
+}
+
+.settings-panel h2 {
+    margin-bottom: 10px;
+}
+
+.settings-panel label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.settings-panel select {
+    margin-bottom: 10px;
+}
+
+.settings-panel button {
+    padding: 8px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.settings-panel button:hover {
+    background-color: #45a049;
+}
+
+.night {
+    width: 100vw;
+    height: 180vh;
+    color: #fff;
+    position: relative;
+  }
+  
+  .moon {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-size: 56px;
+  }
+  
+  .star {
+    position: absolute;
+    bottom: -30px;
+    font-size: 24px;
+  }
