@@ -22,7 +22,7 @@ window.addEventListener('scroll', () => {
   const scrollPositionY = window.pageYOffset;
   const moon = document.querySelector('.moon');
   const moonMoveSpeed = Number(moon.dataset.speed);
-  
+
   moon.style.transform = `translateY(${scrollPositionY * moonMoveSpeed}px)`;
 });
 

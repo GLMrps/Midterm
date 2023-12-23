@@ -1,4 +1,4 @@
-var isGradient1 = true; // 初始漸層色為第一種
+var isGradient1 = false; // 初始漸層色為第一種
 var showIcon = document.getElementById('showIcon');
 var hideIcon = document.getElementById('hideIcon');
 
