@@ -95,6 +95,8 @@ $(document).ready(function () {
             $(".change-top").addClass("color2");
             $(".star i").removeClass("fa-circle");
             $(".star i").addClass("fa-star");
+            document.querySelector(".sun-logo2").classList.toggle("animate-sun2");
+            document.querySelector(".moon-logo2").classList.toggle("animate-moon2");
         }
         else {
             $(".change-text").removeClass("text-white");
@@ -104,6 +106,8 @@ $(document).ready(function () {
             $(".change-top").addClass("color1");
             $(".star i").removeClass("fa-star");
             $(".star i").addClass("fa-circle");
+            document.querySelector(".sun-logo2").classList.toggle("animate-sun2");
+            document.querySelector(".moon-logo2").classList.toggle("animate-moon2");
         }
     });
 
@@ -121,6 +125,8 @@ $(document).ready(function () {
             $(".change-top").addClass("color2");
             $(".star i").removeClass("fa-circle");
             $(".star i").addClass("fa-star");
+            document.querySelector(".sun-logo").classList.toggle("animate-sun");
+            document.querySelector(".moon-logo").classList.toggle("animate-moon");
         }
         else {
             $(".change-text").removeClass("text-white");
@@ -130,6 +136,8 @@ $(document).ready(function () {
             $(".change-top").addClass("color1");
             $(".star i").removeClass("fa-star");
             $(".star i").addClass("fa-circle");
+            document.querySelector(".sun-logo").classList.toggle("animate-sun");
+            document.querySelector(".moon-logo").classList.toggle("animate-moon");
         }
     });
     document.getElementById("Toggle").addEventListener("click", () => {

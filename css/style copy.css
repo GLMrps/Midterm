@@ -9,8 +9,8 @@ body {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top:40%;
-    left:43%;
+    top:35%;
+    left:37%;
     z-index: 9999;
     align-items: center;
 }
@@ -249,7 +249,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: none;
-    width: auto;
+    max-width: 320px;
 }
 
 @media (max-width:620px) {
@@ -289,6 +289,8 @@ body {
     position: relative;
     bottom: 15px;
     font-size: 36px;
+    word-wrap: keep-all;
+    min-width: 80px;
 }
 
 .container {
@@ -452,10 +454,12 @@ body {
 }
 
 .align-middle1{
+    margin-left: 10px;
     margin-top: 12px;
 }
 
 .align-middle2{
+    margin-left: 10px;
     margin-top: 8px;
 }
 
@@ -466,7 +470,7 @@ body {
 }
 
 .vedio {
-    width: 500px;
+    max-width: 500px;
 }
 
 .margin-b {
@@ -479,9 +483,11 @@ body {
     align-content: center;
 }
 
-.botton-icon{
-    display: block;
-    margin-right: 20px;
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 html {
@@ -720,6 +726,7 @@ html {
     font-size: 25px;
 }
 
+
 @media (max-width:768px) {
     .Container{
         padding: 0;
@@ -750,10 +757,39 @@ html {
     .introducing-text-area p{
         font-size: 16px;
     }
+    .anime-text{
+        margin-left: -70px;
+    }
+
+    .vedio{
+        width: 400px;
+    }
+}
+
+@media (max-width:426px){
+    .mailaddress {
+        max-width: 145px;
+        margin: 0;
+        word-wrap: break-all;
+    }
+    .anime-text{
+        margin-left: -100px;
+    }
+}
+
+@media (max-width:376px){
     .card-text{
         font-size: 20px;
         margin-left: -80px;
         margin-top: 20px;
+    }
+    .vedio{
+        width: 320px;
+    }
+    .mailaddress {
+        max-width: 145px;
+        margin: 0;
+        word-wrap: break-all;
     }
 }
 
