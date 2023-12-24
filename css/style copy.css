@@ -44,6 +44,12 @@ body {
     z-index: 999999;
     margin-left: 1px;
     margin-top: 12px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.backtotop:hover{
+    transform: scale(1.35);
 }
 
 .function-icon{
@@ -149,16 +155,16 @@ body {
 
 .nav-item-h{
     padding-right: 50px;
+    transition: all;
+    transition-duration: 0.5s;
 }
 
-.nav-link-h:hover {
-    background-color: #a3a3a300;
-}
 
 .nav-link-h {
     width: 100%;
     text-decoration: none;
 }
+
 
 .dropdown-menu-h {
     width: 100%;
@@ -297,15 +303,18 @@ body {
     padding: 0;
 }
 
-.nav-link:hover {
-    background-color: #3206AE;
-}
-
 .nav-link {
     height: auto;
     padding-top: 13px;
     padding-bottom: 13px;
+    transition: font-size, transform;
+    transition-duration: 0.5s;
 }
+.nav-link:hover {
+    background-color: #3206AE;
+    transform: scale(1.1);
+}
+
 
 .dropdown-menu {
     background-color: #45598F;
@@ -391,6 +400,14 @@ body {
 
 .card-title {
     font-size: 32px;
+}
+
+.title-hover{
+    transition: all;
+    transition-duration: 0.5s;
+}
+.title-hover:hover{
+    transform: scale(1.15);
 }
 
 .card-a {
@@ -506,6 +523,18 @@ html {
     transition: all 1s ease-out;
 }
 
+.moon-logo2 {
+    opacity: 0;
+    transform: translateY(20%) rotateZ(50deg);
+    transition: all 1s ease-out;
+}
+
+.sun-logo2 {
+    opacity: 1;
+    transform: translateY(0) rotateZ(0deg);
+    transition: all 1s ease-out;
+}
+
 #Toggle {
     position: absolute;
     width: 40px;
@@ -513,6 +542,8 @@ html {
     margin-top: 10px;
     z-index: 999999999;
     cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
 }
 #Toggle2 {
     position: absolute;
@@ -521,8 +552,15 @@ html {
     margin-top: 10px;
     z-index: 999999999;
     cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
 }
-
+#Toggle:hover{
+    transform: scale(1.3);
+}
+#Toggle2:hover{
+    transform: scale(1.3);
+}
 
 .sun,
 .moon {
