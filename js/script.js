@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 
-
+    
     var windowWidth = window.innerWidth;
     var documentHeight = updatePageHeight();
     function updatePageHeight() {
@@ -176,6 +176,7 @@ $(document).ready(function () {
 
     stars.forEach(setStarMoveSpeed);
 
+    /* setStarInitXPosition */
 
     window.addEventListener('scroll', () => {
         const scrollPositionY = window.pageYOffset;
@@ -270,9 +271,9 @@ $(document).ready(function () {
 
     const showImage = function (e) {
 
-        if ($(e.target).is("li")) return; 
+        if ($(e.target).is("li")) return; //重複點擊同一元件不動作
         if (!!lastClickImage) {
-            backImage(e);
+            backImage(e); //如果已經點擊過，就先從header搬回圖片
         }
         const image = e.target;
         lastClickImage = e.target.parentNode;
