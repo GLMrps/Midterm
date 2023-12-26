@@ -116,7 +116,7 @@ $(document).ready(function () {
     document.getElementById('Toggle2').addEventListener('click', function () {
         // 切換漸層色
         isGradient1 = !isGradient1;
-        Cookies.get('isGradient') ;
+
         // 設置body的背景為新的漸層色
         /*fa-star fa-circle*/
         document.body.style.background = isGradient1 ? 'linear-gradient(to bottom, #000000, #461AC4)' : 'linear-gradient(to bottom, #8E92FF, #C3EDFB)';
