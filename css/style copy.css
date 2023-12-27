@@ -568,6 +568,10 @@ html {
     width: fit-content;
     height: fit-content;
 }
+.sun{
+    position: relative;
+    right:3px;
+}
 
 .moon {
     position: absolute;
