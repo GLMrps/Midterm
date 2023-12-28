@@ -78,7 +78,9 @@ $(document).ready(function () {
         $(".debug-cover").toggleClass("show");
     })
 
-
+    $("#togglefix").click(function(){
+        $("#togglefix").toggleClass("is-active");
+    })
     
     var block = document.getElementsByClassName('change-block');
     var isGradient1;
