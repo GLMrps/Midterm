@@ -707,6 +707,7 @@ html {
 	border-top: 3px solid #e5e9dc;
 	border-bottom: 3px solid #e5e9dc;
     width:70%;
+    height: fit-content;
 }
 
 /* CSS Grid */
@@ -731,17 +732,24 @@ html {
     max-width: 100%;  
     height: auto;  
     cursor: crosshair;
+    transition: all;
+    transition-duration: 0.3s;
 }
 
 .gallery__item:hover {
 	opacity: 0.6;
 	cursor: pointer;
+    transform: scale(1.2);
 }
 
 .gallery__item-image {
 	width: 100%;
 	display: block;
 	object-fit:contain;
+}
+
+.gallery__item-image:hover{
+    border: thick solid #ff4141;
 }
 
 .introducing{
@@ -882,4 +890,21 @@ html {
 .align-middle{
     margin-left: auto;
     margin-right: auto;
+}
+
+
+
+body {
+    animation: fadein 0.5s; 
+}
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    50%{
+        opacity:0.5;
+    }
+    100% {
+        opacity:1;
+    }
 }
